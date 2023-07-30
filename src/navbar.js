@@ -9,9 +9,14 @@ const Navbar = () => {
                     <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <Link to="/signup">Sign Up</Link>
+                    <Link to="/events">Events</Link>
                 </li>
-                {/* Add other links for different pages */}
+                <li>
+                    <Link to="/myclass">My Class</Link>
+                </li>
+                <li>
+                    <Link to="/athletics">Athletics</Link>
+                </li>
             </ul>
         </nav>
     );
