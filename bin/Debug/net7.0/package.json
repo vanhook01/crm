@@ -1,0 +1,103 @@
+{
+  "name": "alumni-crm-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "axios": "^0.21.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "prettier": "^2.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint src",
+    "format": "prettier --write src"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "plugin:jsx-a11y/recommended",
+      "plugin:import/errors",
+      "plugin:import/warnings"
+    ],
+    "plugins": [
+      "react",
+      "react-hooks",
+      "import",
+      "jsx-a11y"
+    ],
+    "rules": {
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "warn",
+      "react/react-in-jsx-scope": "off",
+      "react/prop-types": "off",
+      "import/order": [
+        "error",
+        {
+          "groups": [
+            [
+              "builtin",
+              "external"
+            ],
+            [
+              "internal",
+              "parent",
+              "sibling",
+              "index"
+            ]
+          ],
+          "newlines-between": "always-and-inside-groups"
+        }
+      ],
+      "jsx-a11y/anchor-is-valid": [
+        "error",
+        {
+          "components": [
+            "Link"
+          ],
+          "specialLink": [
+            "hrefLeft",
+            "hrefRight"
+          ],
+          "aspects": [
+            "invalidHref",
+            "preferButton"
+          ]
+        }
+      ]
+    },
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

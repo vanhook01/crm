@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{F9953830-97CB-4054-B676-931CD0AC5CB1}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.alumni-crm-frontend PreferredExecutionTarget="/Applications/Google Chrome.app" FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.ItemProperties.alumni-crm-backend FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="package.json">
+    <Files>
+      <File FileName="package.json" Line="74" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="alumni-crm-frontend" expanded="True">
+            <Node name="alumni-crm-frontend" expanded="True">
+              <Node name="alumni-crm-frontend" expanded="True" />
+              <Node name="package.json" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

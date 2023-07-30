@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/alumni-crm-frontend.props" />
+</Project>
